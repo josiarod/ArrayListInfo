@@ -47,9 +47,20 @@ public class Main {
     words.add("sunny");
     words.add("foggy");
 
+    words.add("snowy");
+    System.out.println(words);
+
+//    words.remove("snowy"); // only removes first instance
+//    System.out.println(words);
+
+    while (words.contains("snowy")){
+        words.remove("snowy");
+    }
+    System.out.println(words);
+
     // Check if list contains the word "snowy"
-    if(words.contains("snowy")){
-      System.out.println("Snowy found!\n");
+    if(words.contains("foggy")){
+      System.out.println("Foggy found!\n");
     }
 
     // Check if list is empty
