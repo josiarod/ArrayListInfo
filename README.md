@@ -1,8 +1,5 @@
 # ArrayListInfo
 
-Note:  
-We may choose to use arrays over ArrayLists when we know the number of items
-Using arrays is faster than ArrayLists when processing
 
         ARRAYS                                 |    ARRAYLISTS
       -------------------------------------------------------------------------------------------------
